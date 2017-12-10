@@ -2,7 +2,7 @@
 
 This is a clone and slight alteration of LoopBack. All credit goes to original authors. I made small changes based off of a variety of solutions from the internet and tweaked my own support for custom tokens, since it appears the original authors of LoopBack are no longer working on new releases and pull requests. All works are filed under the original MIT license. Feel free to contribute or clone. Also, feel free to message me, if you feel in any way this infringes on your work.
 
-The original repo and instructions can be found at: (https://github.com/strongloop/loopback).
+The original repo and instructions can be found at: https://github.com/strongloop/loopback.
 
 ### Usage of Custom tokens
 
