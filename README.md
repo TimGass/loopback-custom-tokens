@@ -8,6 +8,18 @@ The original repo and instructions can be found at: https://github.com/strongloo
 
 It's fairly simple. I set it up to specifically refer to the token model by name, after it is built by using loopback.token. This should simply be passed as a string of the name of the token as defined in the model.json file, typically found in the common folder. This is not an incredibly complex problem or solution, however it seems that the original authors will not integrate it so I am putting it out there. Without such a patch, the code cannot run custom token models for authentication purposes. This makes more complex tokens unusable in the standard codebase of LoopBack.
 
+Importation should look something like this:
+
+```
+var loopback = require('loopback-custom-tokens');
+```
+
+or
+
+```
+import loopback from 'loopback-cusotm-tokens';
+```
+
 In server/server.js add a line similar to this to the top of file, but below the library importation:
 
 ```
